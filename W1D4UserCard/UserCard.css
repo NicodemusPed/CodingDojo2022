@@ -1,52 +1,18 @@
 *{
-    Height: 0px;
-    Width: 0px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-#row{
-    font-size: 30px;
-    color: darkblue;
+body{
+    background-color: lightseagreen;
+    : flex;
 }
 
-#container{
-    height: 500px;
-    width: 1000px;
-    border: solid 5px rgb(102, 105, 105);
-    display: flex;
-    align-items: top;
-
+.container{
+    height: 600px;
+    width: 1200px;
+    background-color: white;
 
 }
-.img{
-    Height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
 
-#block1{
-    height: 250px;
-    width: 1000px;
-    background-color: darkblue;
-}
-/* #row{
-    height: 25%;
-    background-color: darkblue;
-    display: flex;
-    align-items: top
-    
-} */
-
-/* #row{
-    height: 100px;
-    width: 1000px;
-    border: solid 1px blue;
-    background-color: blue; */
-}
-
-#container{
-    height: 100px;
-    width: 1000px;
-    border: solid 1px blue;
-    background-color: blue;
-}
