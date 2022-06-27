@@ -46,6 +46,7 @@ hi{
 
 .col-left{
     flex: 2;
+    background-color: antiquewhite;
 }
 
 .col-right{
