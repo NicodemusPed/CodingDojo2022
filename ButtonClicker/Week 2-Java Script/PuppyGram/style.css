@@ -36,34 +36,32 @@ hi{
 }
 
 #main{
-    Height: 1000px;
     display: flex;
 
 }
 
-#col-left, #col-right{
+.col-left, .col-right{
     height: 300px;
 }
 
-#col-left{
+.col-left{
     flex: 2;
 }
 
-#col-right{
+.col-right{
     flex: 1;
 }
 .puppy{
     outline: 3px solid black;
-    height: 300px;
     display: flex;
-
 }
 
 .puppy-left, .puppy-right{
-    outline: 3px solid black;
+    
     align-items: center;
 }
 
 .puppy-left > img{
-    height: 100px;
+    height: 150px;
+    border: 1px solid black;
 }
