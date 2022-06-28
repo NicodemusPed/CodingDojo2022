@@ -37,6 +37,7 @@ hi{
 
 #main{
     display: flex;
+    align-items: center;
 
 }
 
@@ -46,7 +47,7 @@ hi{
 
 .col-left{
     flex: 2;
-    background-color: antiquewhite;
+    
 }
 
 .col-right{

@@ -18,14 +18,13 @@
 
 h1{
     font-size: 50px;
+    margin-left: 30px;
 }
 
 #nav-bar input{
     width: 500px;
     height: 40px;
     font-size: 30px;
-    padding: 10px;
-    
 }
 button{
     height: 60px;
@@ -35,18 +34,12 @@ button{
     font-size: 30px;
     color: white;
     box-shadow: 5px 8px 5px black;
+    margin-right: 50px;
 }
 
 .main{
-    justify-content:space-between;
     margin-left: 50px;
     margin-right: 50px;
-
-    
-}
-
-.col-left, .col-right{
-    align-items: center;
 }
 
 .col-left{
@@ -54,14 +47,16 @@ button{
     border: 3px solid black;
     margin-bottom: 10px;
     display: flex;
-    margin-left: 20px;
     
 }
 
 .name-left{
-    font-size: 45px;
     margin-bottom: 20px;
     font-size: 75px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: aquamarine;
+
 }
 
 h2{
@@ -73,11 +68,18 @@ h2{
     height: 50px;
     width: 200px;
     font-size: 30px;
-    color: white;
     box-shadow: 5px 8px 5px black;
     background-color: bisque;
     color: black;
     padding-bottom: 30px;
+}
+
+.name-right{
+    display: flex;
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-size: 75px;
+    background-color: blueviolet;
 }
 
 em{
@@ -85,7 +87,9 @@ em{
 }
 
 #like-button{
-    margin-bottom: 20pxS;
+    margin-bottom: 20px;
+    background-color: brown;
+    display: flex;
 }
 
 .name-right{
