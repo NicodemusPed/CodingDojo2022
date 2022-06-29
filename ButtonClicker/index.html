@@ -13,7 +13,7 @@
         <div id="nav-bar">
             <h1>Dojonary</h1>
             <input type="text" placeholder="Search">
-            <button id="login">Login</button>
+            <button id="buttonl" onclick= "removeElement(this)">Login</button>
         </div>
 <div class="great">
         <div id="main">
@@ -23,11 +23,12 @@
                         <h2>noun</h2>
                         <em>Plural: ninjas</em>
                         <div class="likes">
-                            <button>13 likes</button>
+                            <button onclick="alert('you liked this pet')">13 likes</button>
                         </div>
                     </div>
                 </div>
                 <div class="name-right">
+                    <img onmouseover="changeImg(this)"  src="./beagle.jpeg" alt="Beagle">
                     <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
                 </div>
             </div>
@@ -37,7 +38,7 @@
                         <h2>noun</h2>
                         <em>Plural: ninjas</em>
                         <div class="likes">
-                            <button>13 likes</button>
+                            <button onclick="alert('you liked this pet')">3 likes</button>
                         </div>
                     </div>
                 </div>
@@ -49,14 +50,16 @@
                 <div class="col-r">
                     <div id="box-1">
                         <p>Hello there worlds</p>
-                        <button>Help</button>
+                        <button onclick="uploadPup(this)">Help</button>
                     </div>
                     <div id="box-2">
                         <p>here is a video to enjoy!</p>
-                        <video src="./puppy_video.mp4"></video>
+                        <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"
+                        src="./puppy_video.mp4"></video>
                         <h3>Watch a Dog have <e> FUN!</e></h3>
 
                     </div>
                 </div>
 </div>
+    <script src="script.js"></script>
 </body>
