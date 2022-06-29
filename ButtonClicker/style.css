@@ -92,10 +92,13 @@ h1{
 
 
 .col-r{
-    border: 3px solid black;
     margin-left: 5px;
     margin-bottom: 5px;
     text-align: center;
+}
+
+#box-1{
+    border: 3px solid black;
 }
 
 
