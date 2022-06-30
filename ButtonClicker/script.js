@@ -18,6 +18,22 @@ function pauseVideo(element){
 }
 
 function changeImg(element){
-    console.log("changeimage", element);
-    element.src = "./anothaPuppy.jpeg";
+    console.log("change image", element);
+    element.src = "./resources/anothaPuppy.jpeg";
+}
+
+function closeCookie(){
+    console.log("ate the cookie");
+    var element =  document.querySelector("#cookie-box");
+    element.remove();
+}
+
+function incrementLike(id){
+    console.log("More Likes", id);
+    var element =  document.querySelector(id);
+    console.log("element looks like this",  element.innerText);
+    let likeCount = Number (element.innerText);
+    console.log(likeCount);
+    likeCount+=1;
+    element.innerText = likeCount;
 }
