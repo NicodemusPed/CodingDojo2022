@@ -15,51 +15,55 @@
             <input type="text" placeholder="Search">
             <button id="buttonl" onclick= "removeElement(this)">Login</button>
         </div>
-<div class="great">
-        <div id="main">
-            <div id="col-l">
-                <div class="col-left">
-                    <div class="name-left">ninja
-                        <h2>noun</h2>
-                        <em>Plural: ninjas</em>
-                        <div class="likes">
-                            <button onclick="alert('you liked this pet')">13 likes</button>
+    <div class="great">
+            <div id="main">
+                <div id="col-l">
+                    <div class="col-left">
+                        <div class="name-left">ninja
+                            <h2>noun</h2>
+                            <em>Plural: ninjas</em>
+                            <div class="likes">
+                                <button onclick="incrementLike('#pup1-count')"><span id="pup1-count">13</span> likes</button>
+                            </div>
                         </div>
                     </div>
+                    <div class="name-right">
+                        <img onmouseover="changeImg(this)"  src="./resources/beagle.jpeg" alt="Beagle">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
                 </div>
-                <div class="name-right">
-                    <img onmouseover="changeImg(this)"  src="./beagle.jpeg" alt="Beagle">
-                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
-                </div>
-            </div>
-            <div id="col-l">
-                <div class="col-left">
-                    <div class="name-left">ninja
-                        <h2>noun</h2>
-                        <em>Plural: ninjas</em>
-                        <div class="likes">
-                            <button onclick="alert('you liked this pet')">3 likes</button>
+                <div id="col-l">
+                    <div class="col-left">
+                        <div class="name-left">ninja
+                            <h2>noun</h2>
+                            <em>Plural: ninjas</em>
+                            <div class="likes">
+                                <button onclick="incrementLike('#pup2-count')"><span id="pup2-count">1</span> likes</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="name-right">
-                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    <div class="name-right">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
                 </div>
             </div>
-        </div>
-                <div class="col-r">
-                    <div id="box-1">
-                        <p>Hello there worlds</p>
-                        <button onclick="uploadPup(this)">Help</button>
+                    <div class="col-r">
+                        <div id="box-1">
+                            <p>Hello there worlds</p>
+                            <button onclick="uploadPup(this)">Help</button>
+                        </div>
+                        <div id="box-2">
+                            <p>here is a video to enjoy!</p>
+                            <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"
+                            src="./resources/puppy_video.mp4"></video>
+                            <h3>Watch a Dog have <em> FUN!</em></h3>
+                        </div>
                     </div>
-                    <div id="box-2">
-                        <p>here is a video to enjoy!</p>
-                        <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"
-                        src="./puppy_video.mp4"></video>
-                        <h3>Watch a Dog have <e> FUN!</e></h3>
-
+    </div>
+    <div id="cookie-box">
+                        <img> src="./resources/caution.jpeg" alt="caution symbol">
+                        <p>We track everything you do and sell your information for a big profit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem quaerat veniam quis quae, ipsam eum, cum veritatis enime!</p>
+                        <button onclick= "closeCookie()" >I Accept </button>
                     </div>
-                </div>
-</div>
     <script src="script.js"></script>
 </body>
