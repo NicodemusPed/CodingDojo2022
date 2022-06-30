@@ -1,27 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Likes1</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Likes1</title>
 </head>
 <body>
-    <div id="main">
-        <div id="nav-bar">
-            <h1 id="nav">Network</h1>
-        </div>
-        <div id="feed">
-                <h1 id="title">Your Feed</h1>
-            </div>
-            <div id="page">
-
-            </div>
-            
-
-        </div>
+<div id="main">
+    <div id="nav-bar">
+        <h1 id="nav">Network</h1>
     </div>
-    <script src="script.js"></script>
+    <div id="feed">
+            <h1 id="title">Your Feed</h1>
+            <div id="layout">
+                <div id="pagel">
+                    <img src="./avatar.png" alt="avatar">
+                    <div><a href="@codingdojo.org">Add an avatar</a></div>
+                    <p>James Doe</p>
+                </div>
+                <div id="pager">
+                    <div class="outline">
+                        <div id="top">
+                            <h1>Neil M</h1>
+                            <div class="count">
+                                <p class="likes"></p> <span  id="countt">9   </span>like(s)</p>
+                            </div>
+                            <button onclick="incrementLike('#countt')" class="button">Like</button>
+                        </div>
+                        <div id="message">
+                            <p>This is some text that can be anything it needs to describe the product.</p>
+                        </div>
+                    </div>
+                    <div class="outline">
+                        <div id="middle">
+                            <h1>Nichole K</h1>
+                            <div class="count">
+                                <p class="likes"></p> <span  id="countm">9   </span>like(s)</p>
+                            </div>       
+                            <button onclick="incrementLike('#countm')" class="button">Like</button>
+                        </div>
+                        <div id="message">
+                            <p>This is some text that can be anything it needs to describe the product.</p>
+                        </div>
+                    </div>
+                    <div class="outline">
+                <div id="bottom">
+                        <h1>Jim R</h1>
+                        <div class="count">
+                            <p class="likes"></p> <span  id="countb">9   </span>like(s)</p>
+                        </div>
+                        <button onclick="incrementLike('#countb')" class="button">Like</button>
+                    </div>
+                    <div id="message">
+                        <p>This is some text that can be anything it needs to describe the product.</p>
+                    </div>
+                    </div>
+                </div>
+        </div> 
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
