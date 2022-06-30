@@ -130,3 +130,29 @@ button{
 #box-2 > video{
     width: 200px;
 }
+
+#cookie-box{
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    position: fixed;
+    bottom: 20px;
+    opacity: 0.75;
+}
+#cookie-box>img{
+    width: 100px;
+    margin: 15px 15px;
+    border: 10px dashed red;
+}
+
+#cookie-box>button{
+    background-color: rgb(60, 97, 218);
+    box-shadow: 3px 3px black;
+    margin: 15px 15px;
+    color: aliceblue;
+    width: 300px;
+    font-size: 25px;
+}

@@ -18,8 +18,13 @@ function pauseVideo(element){
 }
 
 function changeImg(element){
+<<<<<<< HEAD
     console.log("changeimage", element);
     element.src = "./anothaPuppy.jpeg";
+=======
+    console.log("change image", element);
+    element.src = "./resources/anothaPuppy.jpeg";
+>>>>>>> faab2d17895ffbc6243a1dc964c28122e63d829a
 }
 
 function closeCookie(){
@@ -33,7 +38,14 @@ function incrementLike(id){
     var element =  document.querySelector(id);
     console.log("element looks like this",  element.innerText);
     let likeCount = Number (element.innerText);
+<<<<<<< HEAD
     console.log("likeCount");
     likeCount+=1;
     element.innerText = likeCount;
 }
+=======
+    console.log(likeCount);
+    likeCount+=1;
+    element.innerText = likeCount;
+}
+>>>>>>> faab2d17895ffbc6243a1dc964c28122e63d829a

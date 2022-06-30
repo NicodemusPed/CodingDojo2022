@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main{
+    background-color: lightgray;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#nav-bar{
+    background-color: black;
+    
+}
+
+#nav{
+    font-size: 3rem;
+    color: white;
+    padding: 15px 15px;
+
+}
+
+#feed{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: aquamarine;
+}
+
+#title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#page{
+    background-color: chartreuse;
+    height 200px;
+}
