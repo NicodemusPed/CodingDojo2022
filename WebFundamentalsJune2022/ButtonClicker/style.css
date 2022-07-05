@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+#nav-bar{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+#nav-bar input{
+    width: 500px;
+    height: 60px;
+    font-size: 50px;
+    border: 5px solid black;
+}
+#buttonl{
+    width: 200px;
+    outline: 2px solid black;
+    background-color: blue;
+    font-size: 50px;
+    color: white;
+    box-shadow: 5px 8px 5px black;
+    margin-right: 50px;
+    padding: 10px;
+}
+/* ---Nav---^^^^ */
+.great{
+    margin: 0px 50px;
+    display: flex;
+}
+#main{
+    flex: 2;
+    background-color: rgb(149, 177, 45);
+}
+
+#col-l{
+    padding: 10px;
+    display: flex;
+    border: 3px solid black;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;;
+}
+
+.col-left{
+    margin: 10px 10px;
+}
+
+
+.name-left{
+    text-align: center;
+    padding: 5px 5px;
+
+}
+
+.name-left>em{
+    font-size: 40px;
+
+}
+
+
+.likes>button{
+    margin: 5px;
+    padding: 5px 5px;
+    background-color: burlywood;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+/* ----left items^^^ */
+.name-right{
+    padding: 5px;
+    display: inline-block;
+
+}
+
+.name-right>img{
+    width: 200px;
+    text-align: center;
+}
+
+/* ---main row right done^^^ */
+/* left is done^^ */
+
+
+
+.col-r{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#box-1{
+    border: 3px solid black;
+    padding: 5px 5px;
+}
+
+
+p{
+    font-size: 2rem;
+    color: black;
+}
+
+button{
+    background-color: chartreuse;
+    margin: 5px;
+    font-size: 50px;
+}
+
+#box-2{
+    border: 3px solid black;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+
+#box-2 > video{
+    width: 200px;
+}
+
+#cookie-box{
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    position: fixed;
+    bottom: 20px;
+    opacity: 0.75;
+}
+#cookie-box>img{
+    width: 100px;
+    margin: 15px 15px;
+    border: 10px dashed red;
+}
+
+#cookie-box>button{
+    background-color: rgb(60, 97, 218);
+    box-shadow: 3px 3px black;
+    margin: 15px 15px;
+    color: aliceblue;
+    width: 300px;
+    font-size: 25px;
+}

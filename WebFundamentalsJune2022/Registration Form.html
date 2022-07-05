@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://127.0.0.1:5500/HTML/W1D2AM/W1D2PMForm/Form.HTML? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1> 
+
+    <form>
+        <div>
+            <label for="First_Name">First Name:*</label>
+            <input type="text" id="First_Name">
+        </div>
+
+        <div>
+            <label for="Last_Name">Last Name:*</label>
+            <input type="text" id="Last_Name">
+        </div>
+        
+        <div>
+            <label for="Email_Address">Email_Address:*</label>
+            <input type="email" name="" id="Email_Address">
+        </div>
+
+        <div>
+            <label for="Password">Password:*</label>
+            <input type="password" name="" id="Password">
+        </div>
+
+        <div>
+            <label for="Confirm_Password">Confirm Password:*</label>
+            <input type="password" name="" id="Confirm_Password">
+        </div>
+
+        <div>
+            <label for="Birthday">Birthday:</label>
+            <input type="date" name="" id="Birthday">
+        </div>
+
+        <div>
+            <label for="">Gender Identity:</label>           
+        </div>
+
+        <div>
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="bold">Male</label>
+
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="bold">Female</label>
+            
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="bold">Non-binary</label>
+            
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="bold">Prefer not to answer</label>
+        </div>
+
+        <div>
+            <label for="A_short_description_about_myself">A short description about myself:</label>
+        </div>
+        <div>
+            <textarea name="" id="A_short_description_about_myself" cols="28" rows="3"></textarea>
+        </div>
+
+        <div>
+            <label for="Favorite_Language">Favorite Language:</label>
+            <select id="">3
+                <option value="">JavaScript</option>
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" name="" id="Check">
+            <label for="Check">Yes, I would like to recieve periodic email updates</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+
+        <div>
+            <label for="">* Indicates a required field</label>
+        </div>
+
+
+    </form>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
