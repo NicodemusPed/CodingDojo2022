@@ -7,7 +7,6 @@ for i in range(0,1000,5):
     
 
 
-
 for i in range(1,100,1):
     print(i)
     if i%5==0:
@@ -23,7 +22,6 @@ print(sum)
 for i in range(2018,0,-4):
     print(i)
     
-lowNum=1
-highNum=111
-mult=7
 
+for i in range(1,111,4):
+        print(i)
