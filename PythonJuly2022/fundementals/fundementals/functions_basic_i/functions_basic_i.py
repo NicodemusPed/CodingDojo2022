@@ -1,27 +1,33 @@
-#1
+1
 # def number_of_food_groups():
 #     return 5
 # print(number_of_food_groups())
 
+# thought intially nothing would print but then the return would = number of food groups thus printing 5.
 
-# #2
+
+#2
 # def number_of_military_branches():
 #     return 5
 # print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
 
+#will not print anything--correct it errored as the fisrst varaible is undefined.
 
-# #3
+
+#3
 # def number_of_books_on_hold():
 #     return 5
 #     return 10
 # print(number_of_books_on_hold())
 
+#print 5 as the loop is run only once. the 10 will never be reached.
 
 # #4
-def number_of_fingers():
-    return 5
-    print(10)
-print(number_of_fingers())
+# def number_of_fingers():
+#     return 5
+#     print(10)
+# print(number_of_fingers())
+#print 5 and 10 because different functions the print is undefined so only 5 prints.
 
 
 # #5
@@ -29,19 +35,20 @@ print(number_of_fingers())
 #     print(5)
 # x = number_of_great_lakes()
 # print(x)
-
+#print 5 but unsure--printed 5 becase x=5
 
 # #6
 # def add(b,c):
 #     print(b+c)
 # print(add(1,2) + add(2,3))
+#print 8  the print said print the info not the total.
 
 
 # #7
-# def concatenate(b,c):
-#     return str(b)+str(c)
-# print(concatenate(2,5))
-
+def concatenate(b,c):
+    return str(b)+str(c)
+print(concatenate(2,5))
+#print concateneate(2,5)--- combined the numbers 
 
 # #8
 # def number_of_oceans_or_fingers_or_continents():
