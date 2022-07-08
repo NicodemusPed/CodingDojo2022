@@ -45,10 +45,10 @@
 
 
 # #7
-def concatenate(b,c):
-    return str(b)+str(c)
-print(concatenate(2,5))
-#print concateneate(2,5)--- combined the numbers 
+# def concatenate(b,c):
+#     return str(b)+str(c)
+# print(concatenate(2,5))
+#print concateneate(2,5)--- combined the numbers to 25
 
 # #8
 # def number_of_oceans_or_fingers_or_continents():
@@ -60,6 +60,7 @@ print(concatenate(2,5))
 #         return 10
 #     return 7
 # print(number_of_oceans_or_fingers_or_continents())
+# this will print 100 thats it.--printed 10 as well because it is b as well.
 
 
 # #9
@@ -72,6 +73,7 @@ print(concatenate(2,5))
 # print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 # print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 # print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+#print  7,14,21--
 
 
 # #10
@@ -79,6 +81,7 @@ print(concatenate(2,5))
 #     return b+c
 #     return 10
 # print(addition(3,5))
+#print 8 got 8.
 
 
 # #11
@@ -91,6 +94,8 @@ print(concatenate(2,5))
 # foobar()
 # print(b)
 
+#print 500 300 300 300--got 500 500 --not defined as foobar-300- 500 
+
 
 # #12
 # b = 500
@@ -102,7 +107,7 @@ print(concatenate(2,5))
 # print(b)
 # foobar()
 # print(b)
-
+# print 500. 500, 300, 300--got 500, 500, 300, 500
 
 # #13
 # b = 500
@@ -114,7 +119,7 @@ print(concatenate(2,5))
 # print(b)
 # b=foobar()
 # print(b)
-
+# print 500, 500, 300, 300-correct
 
 # #14
 # def foo():
@@ -124,16 +129,19 @@ print(concatenate(2,5))
 # def bar():
 #     print(3)
 # foo()
+#1, 2,3 bar =3 so 1,3,2 
 
 
 # #15
-# def foo():
-#     print(1)
-#     x = bar()
-#     print(x)
-#     return 10
-# def bar():
-#     print(3)
-#     return 5
-# y = foo()
-# print(y)
+def foo():
+    print(1)
+    x = bar()
+    print(x)
+    return 10
+def bar():
+    print(3)
+    return 5
+y = foo()
+print(y)
+
+#print 1,5, x,y--1,3,5,10
