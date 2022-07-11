@@ -2,22 +2,30 @@ class BankAccount:
     def __init__(self, int_rate, balance): 
         self.int_rate=int_rate
         self.balance=balance
+        
     def deposit(self, amount):
-        self.amount=amount
-        self.balance=self.balance+self.amount
+
+        self.balance=self.balance+amount
         print(f"Balance:{self.balance}")
+        return self
+        
     def withdraw(self, amount):
-        self.amount=amount
-        if self.amount>self.balance:
+
+        if amount>self.balance:
             print(f"Insuffuicient Funds: {self.balance}")
         else:
-            self.balance=self.balance-self.amount
-            print(f"New Balance: {self.balace}")
+            self.balance=self.balance-amount
+            print(f"New Balance: {self.balance}")
+        return self
+            
     def display_account_info(self):
         print(f"Account Balance: {self.balance}")
-    def yield_interest(self):
-        self.interest_yeild=interest_yeild
+        return self
+    # def yield_interest(self):
+    #     self.interest_yeild=interest_yeild
 
+checkings=BankAccount(0.2, 0)
+checkings.deposit(100).deposit(20).deposit(350).withdraw(25).display_account_info()
 
 class User:
     def __init__(self, name, email):
@@ -30,8 +38,7 @@ class User:
     def make_deposit(self, amount):
         self.amount=amount
 
-class User:
     def example_method(self):
         self.account.deposit(100)		# we can call the BankAccount instance's methods
-    print(self.account.balance)		# or access its attributes
+    # print(self.account.balance)		# or access its attributes
 
